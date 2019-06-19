@@ -13,7 +13,7 @@ else
 fi
 
 echo "Downloading archive..."
-curl -LG $url | tar -jxf -
+curl -LGs $url | tar -jxf - "info/LICENSE.txt" "lib/k.so"
 cat info/LICENSE.txt
 echo ""
 
