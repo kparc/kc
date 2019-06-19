@@ -43,6 +43,7 @@
     "console"
   ],
   "license": "MIT",
+  "repository": "https://github.com/kparc/kc",
   "main": "index.js",
   "name": "@kparc/kc",
   "scripts": {

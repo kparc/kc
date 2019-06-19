@@ -5,8 +5,8 @@ rm -rf tmp
 mkdir tmp
 cd tmp
 
-os=`uname -o`
-if [[ $os = "GNU/Linux" ]]; then
+os=`uname -a`
+if [[ $os =~ .*Linux.* ]]; then
     url="https://anaconda.org/shaktidb/shakti/2019.06.08/download/linux-64/shakti-2019.06.08-1176_g9aa9d4d.tar.bz2" 
 else
     url="https://anaconda.org/shaktidb/shakti/2019.06.08/download/osx-64/shakti-2019.06.08-1176_g9aa9d4d.tar.bz2"
