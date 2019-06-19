@@ -1,29 +1,4 @@
 {
-  "_from": "@kparc/kc",
-  "_id": "@kparc/kc@0.1.3",
-  "_inBundle": false,
-  "_integrity": "sha512-WepvQSakgusR5pAYAa31S85CL91SG/Je5uhGnhHhQpNoxCZE+ERgNX5LJCBh1kJMPg1mb82TSNEOvCvuY/OY2w==",
-  "_location": "/@kparc/kc",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "@kparc/kc",
-    "name": "@kparc/kc",
-    "escapedName": "@kparc%2fkc",
-    "scope": "@kparc",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/@kparc/kc/-/kc-0.1.2.tgz",
-  "_shasum": "ec42181ffcb433ce074903de6fe7d73f2cb6dc5a",
-  "_spec": "@kparc/kc",
-  "_where": "/home/bowler/source/k/kc2",
   "author": {
     "name": "kparc"
   },
@@ -50,5 +25,5 @@
     "install": "node-gyp rebuild -C napi && ./napi/install.sh",
     "test": "mocha"
   },
-  "version": "0.1.2"
+  "version": "0.1.3"
 }
